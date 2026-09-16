@@ -1,0 +1,24 @@
+{
+  "name": "sample-mern-project",
+  "version": "1.0.0",
+  "description": "hrmanagement",
+  "homepage": "https://github.com/jahnavipinnaka/Sample-Mern-Project1#readme",
+  "bugs": {
+    "url": "https://github.com/jahnavipinnaka/Sample-Mern-Project1/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jahnavipinnaka/Sample-Mern-Project1.git"
+  },
+  "license": "ISC",
+  "author": "Jahnavi Pinnaka",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongodb": "^7.6.0"
+  }
+}
