@@ -1,5 +1,4 @@
 let express = require('express');
-const { MongoDriverError } = require('mongodb');
 let router = express.Router();
 router.get("/viewemployees",(req,res)=>{
     res.send("View employees route");
@@ -13,5 +12,5 @@ router.get("/viewtasks",(req,res)=>{
 router.delete("/deleteEmp",(req,res)=>{
     res.send("Delete employees route");
 });
-// localhost:3000/api/hr/viewtasks GET
+// localhost:3000/api/employee/viewtasks GET
 module.exports=router;
