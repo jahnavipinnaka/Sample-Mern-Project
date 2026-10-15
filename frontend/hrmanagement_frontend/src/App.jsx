@@ -7,6 +7,8 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Contact from './pages/Contact'
 import Services from './pages/Services'
+import AdminLogin from './pages/AdminLogin'
+import AdminHome from './pages/AdminHome'
 import { Routes,Route } from 'react-router-dom'
 
 function App() {
@@ -19,6 +21,8 @@ function App() {
         <Route path="/about" element = {<About></About>}></Route>
         <Route path="/contact" element = {<Contact></Contact>}></Route>
         <Route path="/services" element = {<Services></Services>}></Route>
+        <Route path="/adminlogin" element={<AdminLogin></AdminLogin>}></Route>
+        <Route path="/adminhome" element={<AdminHome></AdminHome>}></Route>
       </Routes>
       
 
