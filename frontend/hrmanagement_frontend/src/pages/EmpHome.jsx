@@ -1,7 +1,8 @@
 function EmpHome(){
+    let currentuser=JSON.parse(localStorage.getItem("currentuser"));
     return(
         <div>
-            <h1>EmpHome page called</h1>
+            <h1>Welcome {currentuser.name}</h1>
         </div>
     )
 }

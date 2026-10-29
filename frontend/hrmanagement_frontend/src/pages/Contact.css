@@ -1,0 +1,239 @@
+
+/* Page Background */
+.contact-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f8faff, #eef2ff);
+  padding-bottom: 30px;
+}
+
+/* Left Information Section */
+.contact-info {
+  padding: 25px 10px;
+}
+
+.contact-badge {
+  display: inline-block;
+  padding: 9px 16px;
+  margin-bottom: 22px;
+  border: 1px solid #c7d2fe;
+  border-radius: 30px;
+  color: #4338ca;
+  background: #ffffff;
+  font-size: 0.8rem;
+  font-weight: 800;
+  letter-spacing: 1.5px;
+}
+
+.contact-info h1 {
+  margin-bottom: 22px;
+  color: #172554;
+  font-size: clamp(2.3rem, 4vw, 3.5rem);
+  font-weight: 800;
+  line-height: 1.2;
+  letter-spacing: -1px;
+}
+
+.contact-info h1 span {
+  color: #4f46e5;
+}
+
+.contact-intro {
+  max-width: 470px;
+  margin-bottom: 35px;
+  color: #64748b;
+  font-size: 1.05rem;
+  line-height: 1.9;
+}
+
+/* Information Items */
+.contact-info-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 22px;
+}
+
+.contact-info-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 50px;
+  height: 50px;
+  border-radius: 15px;
+  color: #4338ca;
+  background: #e0e7ff;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.contact-info-item h6 {
+  margin-bottom: 5px;
+  color: #172554;
+  font-weight: 700;
+}
+
+.contact-info-item p {
+  margin-bottom: 0;
+  color: #64748b;
+  font-size: 0.92rem;
+}
+
+/* Form Card */
+.contact-form-card {
+  padding: 38px;
+  border: 1px solid #e5e7eb;
+  border-radius: 22px;
+  background: #ffffff;
+  box-shadow: 0 18px 50px rgba(30, 41, 100, 0.09);
+}
+
+.contact-form-heading {
+  margin-bottom: 28px;
+}
+
+.contact-form-heading h2 {
+  margin-bottom: 9px;
+  color: #172554;
+  font-size: 1.8rem;
+  font-weight: 800;
+}
+
+.contact-form-heading p {
+  margin-bottom: 0;
+  color: #64748b;
+}
+
+/* Labels and Inputs */
+.contact-form-card .form-label {
+  margin-bottom: 8px;
+  color: #334155;
+  font-size: 0.93rem;
+  font-weight: 700;
+}
+
+.contact-input {
+  min-height: 49px;
+  padding: 12px 15px;
+  border: 1px solid #dbe2ef;
+  border-radius: 10px;
+  color: #172554;
+  background: #fbfcff;
+  font-size: 0.95rem;
+  transition: border-color 0.25s ease, box-shadow 0.25s ease;
+}
+
+.contact-input::placeholder {
+  color: #94a3b8;
+}
+
+.contact-input:focus {
+  border-color: #6366f1;
+  background: #ffffff;
+  box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.12);
+  outline: none;
+}
+
+/* Submit Button */
+.contact-submit-btn {
+  min-height: 50px;
+  border: 1px solid #4338ca;
+  border-radius: 10px;
+  color: #ffffff;
+  background: linear-gradient(135deg, #4338ca, #6366f1);
+  font-size: 1rem;
+  font-weight: 700;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.contact-submit-btn:hover {
+  border-color: #312e81;
+  color: #ffffff;
+  background: linear-gradient(135deg, #312e81, #4f46e5);
+  box-shadow: 0 8px 20px rgba(67, 56, 202, 0.25);
+  transform: translateY(-2px);
+}
+
+/* Live Preview */
+.contact-preview {
+  margin-top: 28px;
+  padding: 20px;
+  border: 1px solid #e0e7ff;
+  border-radius: 14px;
+  background: #f8faff;
+  overflow-wrap: anywhere;
+}
+
+.contact-preview h5 {
+  margin-bottom: 16px;
+  color: #4338ca;
+  font-size: 1rem;
+  font-weight: 800;
+}
+
+.contact-preview p {
+  margin-bottom: 10px;
+  color: #64748b;
+  font-size: 0.9rem;
+}
+
+.contact-preview strong {
+  color: #334155;
+}
+
+/* Success Alert */
+.contact-form-card .alert {
+  border-radius: 10px;
+  font-size: 0.92rem;
+}
+
+/* Tablet and Mobile */
+@media (max-width: 991.98px) {
+  .contact-info {
+    padding: 10px 0;
+  }
+
+  .contact-info h1 {
+    font-size: clamp(2.1rem, 6vw, 3rem);
+  }
+
+  .contact-form-card {
+    padding: 30px;
+  }
+}
+
+/* Small Mobile */
+@media (max-width: 575.98px) {
+  .contact-page .container {
+    padding-top: 25px !important;
+  }
+
+  .contact-info h1 {
+    font-size: 2.2rem;
+  }
+
+  .contact-intro {
+    font-size: 0.95rem;
+  }
+
+  .contact-form-card {
+    padding: 22px 18px;
+    border-radius: 16px;
+  }
+
+  .contact-form-heading h2 {
+    font-size: 1.5rem;
+  }
+
+  .contact-preview {
+    padding: 16px;
+  }
+}
+
+/* Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+  .contact-input,
+  .contact-submit-btn {
+    transition: none;
+  }
+}
