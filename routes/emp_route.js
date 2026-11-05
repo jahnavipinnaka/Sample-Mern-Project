@@ -42,5 +42,5 @@ router.patch("/updateprofile/:id",async(req,res)=>{
     let result=await users.findByIdAndUpdate(req.params.id,data,{new:true});
     res.send(result);
 });
-// localhost:3000/api/emp/viewtasks GET
+// https://sample-mern-project-ihsd.onrender.com/api/emp/viewtasks GET
 module.exports=router;

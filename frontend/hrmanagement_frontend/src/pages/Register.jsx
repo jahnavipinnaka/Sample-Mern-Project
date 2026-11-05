@@ -22,7 +22,7 @@ function Register() {
 
     try {
       const req = await fetch(
-        "http://localhost:3000/api/emp/register",
+        "https://sample-mern-project-ihsd.onrender.com/api/emp/register",
         {
           method: "POST",
           headers: {

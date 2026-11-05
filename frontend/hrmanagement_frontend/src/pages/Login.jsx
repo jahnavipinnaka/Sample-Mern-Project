@@ -30,7 +30,7 @@ function Login() {
 
       // HR / Employee Login
       const req = await fetch(
-        "http://localhost:3000/api/emp/login",
+        "https://sample-mern-project-ihsd.onrender.com/api/emp/login",
         {
           method: "POST",
           headers: {
